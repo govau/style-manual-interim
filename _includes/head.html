@@ -6,4 +6,9 @@
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   {% asset main.css %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{% asset favicons/apple-touch-icon.png @path %}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{% asset favicons/favicon-32x32.png @path %}">
+  <link rel="icon" type="image/png" sizes="194x194" href="{% asset favicons/favicon-194x194.png @path %}">
+  <link rel="icon" type="image/png" sizes="192x192" href="{% asset favicons/android-chrome-192x192.png @path %}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{% asset favicons/favicon-16x16.png @path %}">
 </head>
