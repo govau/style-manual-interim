@@ -10,7 +10,6 @@ title: Style Manual
 description: > # this means to ignore newlines until "baseurl:"
   The 7th edition of the Style Manual.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Markdown settings
 markdown: kramdown
@@ -21,8 +20,23 @@ markdown: kramdown
 #  sass_dir: _sass
 #  style: :compressed
 
+assets:
+  source_maps: true
+  destination: "/assets"
+  compression: true
+  sources:
+    - _assets/css
+    - _assets/js
+    - _assets/images
+    - _assets/scripts
+  plugins:
+    css: { autoprefixer: {}}
+    img: { optim: {}}
+
 # Build settings
 exclude:
+  - Dockerfile
+  - Gemfile
   - package.json
   - README.md
   - CNAME
@@ -31,5 +45,4 @@ exclude:
 
 # Plugin settings
 plugins:
-        #- jekyll-feed
-    #- jekyll-sitemap
+  - jekyll-assets
