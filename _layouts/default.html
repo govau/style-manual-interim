@@ -1,10 +1,103 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: page.lang | default: 'en' }}">
 {% include head.html %}
-<body>
-<main class="main" aria-label="Content">
-{{ content }}
+<body class="au-grid">
+<nav class="au-skip-link">
+    <a class="au-skip-link__link" href="#content">Skip to main content</a>
+    <a class="au-skip-link__link" href="#mainmenu">Skip to main navigation</a>
+</nav>
+
+<header class="au-header au-header--dark" role="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <a class="au-header__brand" href="#">
+                    <img class="au-header__brand-image" alt="Australian Government Coat of Arms" src="{% asset australian-government.png @path %}">
+                    <div class="au-header__text">
+                        <h1 class="au-header__heading">{{ site.title }}</h1>
+                        <div class="au-header__subline">{{ site.description | escape }}</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="main" id="content" aria-label="Content">
+    <section class="au-body">
+        <div class="container-fluid" id="hero"></div>
+        <div class="container">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h2>What</h2>
+                    <p>The Style Manual outlines the Australian government’s advice and rules on writing, editing and publishing. Its purpose is to encourage quality and consistency of written communication, from and within government.</p>
+                    <p>The current 6<sup>th</sup> edition was last updated in 2002. Since then there have been several rounds of engagement with users and stakeholders to understand what is needed for the next edition.</p>
+                </div>
+                <div class="col-sm-6">
+                    <h2>Subscribe</h2>
+
+                    <p>Subscribe to email updates and engagement opportunities.</p>
+
+<form action="" method="post" class="mt-2">
+    <div class="js-form-item form-item js-form-type-email form-item-mergevars-email js-form-item-mergevars-email">
+        <label for="edit-mergevars-email" class="js-form-required form-required">Email address</label>
+        <input class="au-text-input--block empty-required form-email au-text-input processed" data-drupal-selector="edit-mergevars-email" type="input" id="edit-mergevars-email" name="mergevars[EMAIL]" value="" size="25" maxlength="254" aria-required="true">
+    </div>
+    <div class="js-form-item form-item js-form-type-textfield form-item-mergevars-fname js-form-item-mergevars-fname">
+        <label for="edit-mergevars-fname">First name</label>
+        <input class="au-text-input--block form-text au-text-input" data-drupal-selector="edit-mergevars-fname" type="text" id="edit-mergevars-fname" name="mergevars[FNAME]" value="" size="25" maxlength="128">
+    </div>
+    <div class="js-form-item form-item js-form-type-textfield form-item-mergevars-lname js-form-item-mergevars-lname">
+        <label for="edit-mergevars-lname">Last name</label>
+        <input class="au-text-input--block form-text au-text-input" data-drupal-selector="edit-mergevars-lname" type="text" id="edit-mergevars-lname" name="mergevars[LNAME]" value="" size="25" maxlength="128">
+    </div>
+    <input type="submit" value="Subscribe" class="button js-form-submit form-submit au-btn mt-2">    
+</form>
+
+
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-sm-12" id="collaborators">
+                    <h2>Collaborators</h2>
+                    {% asset collaborators/finance.png alt="Department of Finance" %}
+                    {% asset collaborators/treasury.jpg alt="Department of The Treasury" %}
+                    {% asset collaborators/nsw.png alt="NSW Government" %}
+                    {% asset collaborators/vic.jpg alt="Victorian Government" %}
+                    {% asset collaborators/pmc.png alt="Department of Prime Minister and Cabinet" %}
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h2>Our People</h2>
+                </div>
+                <div class="col-sm-6">
+                    <h2>Our Community</h2>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
+
+<footer class="au-footer au-footer--dark au-body au-body--dark" role="contentinfo">
+    <div class="container">
+        <div class="row">
+            <nav class="col-md-12" aria-label="footer">
+                <ul class="au-link-list au-link-list--inline">
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Need Help?</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                </ul>
+            </nav>
+            <section class="col-sm-12">
+                <div class="au-footer__end">
+                    <p>&copy; Commonwealth of Australia. With the exception of the Commonwealth Coat of Arms and where otherwise noted, this work is licensed under the <a href="https://github.com/govau/design-system-starter/blob/master/LICENSE" rel="external">MIT license</a></p>
+                </div>
+            </section>
+        </div>
+    </div>
+</footer>
+
 {% asset main.js %}
 </body>
 </html>

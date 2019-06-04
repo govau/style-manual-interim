@@ -8,7 +8,7 @@
 # Site settings
 title: Style Manual
 description: > # this means to ignore newlines until "baseurl:"
-  The 7th edition of the Style Manual.
+  The 7th Edition
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Markdown settings

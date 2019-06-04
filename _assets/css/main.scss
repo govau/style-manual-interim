@@ -1,2 +1,47 @@
 //= require designsystem.min.css
 
+$AU-color-background: #313131;
+$primary-color: #45C2F0;
+
+body {
+    margin: 0;
+}
+
+.au-header.au-header--dark,
+.au-footer.au-footer--dark {
+    background-color: $AU-color-background;
+    border: none;
+}
+.au-header.au-header--dark {
+    border-bottom: 8px solid $primary-color;
+    box-shadow: 0 0 5px 0 #7F7F7F;
+}
+.au-footer.au-footer--dark {
+    margin-top: 2em;
+}
+
+.au-header__heading {
+    color: $primary-color;
+}
+
+#hero {  
+    background: url(/assets/images/style-manual-books.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 250px;
+    margin-bottom: 2em;
+}
+
+#collaborators {
+    img {
+        width: auto;
+        max-height: 130px;
+        margin: 1em;
+    }
+}
+
+.mt-2 {
+    margin-top: 2em;
+}
+.mb-2 {
+    margin-bottom: 2em;
+}
