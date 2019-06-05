@@ -1,0 +1,70 @@
+{
+    "events": [
+        {
+            "start_date": {
+                "year": "1966"
+            },
+            "text": {
+                "headline": "1st Edition",
+                "text": "<p>The first edition was developed in response to a recommendation from the Joint Parliamentary Committee on Publications.</p><p>Intended purely as a house style guide for the Commonwealth government and the full title, <em>Style Manual for Authors and Printers of Australian Government Publications</em>, reflected the aim.</p><p>At that time most Commonwealth government publications were printed by the Commonwealth Printing Office.</p><p>Although it was developed with public servants in mind, the success of the first <em>Style Manual</em> surpassed all expectations and was quickly embraced by commercial and private publishers, business and education.</p>"
+            },
+            "media": {
+                "url": "/assets/images/sm-1.jpg"
+            }
+        },
+        {
+            "start_date": {
+                "year": "1972"
+            },
+            "text": {
+                "headline": "2nd Edition",
+                "text": "<p>The second edition added \"Editors\" to the title, to become <em>Style Manual for Authors, Editors and Printers for Australian Government Publications</em>.</p><p>However, the subtitle \"for Australian Government Publications\" appeared on the title page and not the cover.</p><p>The second edition was published by the newly created Australian Government Publishing Service (AGPS).</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "1978"
+            },
+            "text": {
+                "headline": "3rd Edition",
+                "text": "<p>Updated content. Introduced technical information about printing and new developments in typesetting.</p>"
+            },
+            "media": {
+                "url": "/assets/images/sm-3.jpg"
+            }
+        },
+        {
+            "start_date": {
+                "year": "1988"
+            },
+            "text": {
+                "headline": "4th Edition",
+                "text": "<p>Dropped subtitle \"for Australian Government Publications\". Numbered paragraphs were introduced for easy reference.</p><p>Editorial style is dealt with more comprehensively and additional content on copy preparation. A new chapter on non-sexist language was added to reflect \"political rectitude\" in relation to gender-free language.</p><p>Over 45 000 copies sold.</p>"
+            },
+            "media": {
+                "url": "/assets/images/sm-4.jpg"
+            }
+        },
+        {
+            "start_date": {
+                "year": "1994"
+            },
+            "text": {
+                "headline": "5th Edition",
+                "text": "<p>Updated and expanded on Fourth Edition, dealt more comprehensively with subjects including non-discriminatory language and referencing, and included new information about desk top production technology, copy preparation and designing for print.</p><p>Over 49 000 copies sold.</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "2002"
+            },
+            "text": {
+                "headline": "6th Edition",
+                "text": "<p>The sixth edition was a substantial revision - in response to extensive changes in the publishing industry since the previous edition in 1994. It contains detailed advice on publishing in both print and electronic formats; it emphasises the importance of focusing on the audience’s needs when planning, structuring, writing, designing and editing a publication; and it reflects a more multicultural and global outlook that recognises the influence of the internet on publishing. A fresh approach to the manual’s design and layout also makes it more user-friendly.</p><p>The procedural steps in publishing form the underlying structure of the sixth edition. With the trend to outsource much of the specialised work in publishing, there is a need for a wider understanding of what is involved in the separate activities and how to integrate them effectively. Advice is given on how to plan, undertake and evaluate a publishing project. General practices in the editing, design, electronic publishing, indexing and printing fields are also discussed.</p><p>Over 85,500 copies sold, and still selling.</p>"
+            },
+            "media": {
+                "url": "/assets/images/sm-6.jpg"
+            }
+        }
+    ]
+}

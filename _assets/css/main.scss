@@ -1,10 +1,16 @@
 //= require designsystem.min.css
+//= require timeline.css
 
 $AU-color-background: #313131;
 $primary-color: #45C2F0;
 
 body {
     margin: 0;
+}
+.au-body {
+    h2 {
+        font-weight: normal;
+    }
 }
 
 .au-header.au-header--dark,
@@ -32,6 +38,10 @@ body {
 }
 
 #collaborators {
+    background: #EBEBEB;
+    padding: 3em 0;
+    margin: 2em 0 4em;
+
     img {
         width: auto;
         max-height: 130px;
@@ -39,9 +49,28 @@ body {
     }
 }
 
+#timeline {
+    height: 500px;
+}
+.tl-attribution {
+    display: none;
+}
+.tl-text p {
+    color: #313131;
+}
+
+.text-centered {
+    text-align: center;
+}
 .mt-2 {
     margin-top: 2em;
 }
 .mb-2 {
     margin-bottom: 2em;
+}
+.mb-4 {
+    margin-bottom: 4em;
+}
+.mb-5 {
+    margin-bottom: 5em;
 }

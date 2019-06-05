@@ -32,6 +32,7 @@
                     <h2>What</h2>
                     <p>The Style Manual outlines the Australian government’s advice and rules on writing, editing and publishing. Its purpose is to encourage quality and consistency of written communication, from and within government.</p>
                     <p>The current 6<sup>th</sup> edition was last updated in 2002. Since then there have been several rounds of engagement with users and stakeholders to understand what is needed for the next edition.</p>
+                    <p><a href="#">Find out</a> what we're doing with the 7th edition.</p>
                 </div>
                 <div class="col-sm-6">
                     <h2>Subscribe</h2>
@@ -57,8 +58,10 @@
 
                 </div>
             </div>
-            <div class="row mb-2">
-                <div class="col-sm-12" id="collaborators">
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 text-centered" id="collaborators">
                     <h2>Collaborators</h2>
                     {% asset collaborators/finance.png alt="Department of Finance" %}
                     {% asset collaborators/treasury.jpg alt="Department of The Treasury" %}
@@ -67,37 +70,37 @@
                     {% asset collaborators/pmc.png alt="Department of Prime Minister and Cabinet" %}
                 </div>
             </div>
-            <div class="row mb-2">
+        </div>
+        <div class="container">
+            <div class="row mb-4">
                 <div class="col-sm-6">
                     <h2>Our People</h2>
                 </div>
                 <div class="col-sm-6">
                     <h2>Our Community</h2>
+                    <ul>
+                        <li><a href="#">DTA Content Community</a></li>
+                        <li><a href="#">DTA Discourse</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-sm-12">
+                    <h2>History of the Style Manual</h2>
+                    <p>The Style Manual for Authors, Editors and Printers has been with us for almost 60 years. View a <a href="/history">non-interactive version</a> of the timeline.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-2 mb-5">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="timeline"></div>
                 </div>
             </div>
         </div>
     </section>
 </main>
 
-<footer class="au-footer au-footer--dark au-body au-body--dark" role="contentinfo">
-    <div class="container">
-        <div class="row">
-            <nav class="col-md-12" aria-label="footer">
-                <ul class="au-link-list au-link-list--inline">
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Need Help?</a></li>
-                    <li><a href="#">Accessibility</a></li>
-                </ul>
-            </nav>
-            <section class="col-sm-12">
-                <div class="au-footer__end">
-                    <p>&copy; Commonwealth of Australia. With the exception of the Commonwealth Coat of Arms and where otherwise noted, this work is licensed under the <a href="https://github.com/govau/design-system-starter/blob/master/LICENSE" rel="external">MIT license</a></p>
-                </div>
-            </section>
-        </div>
-    </div>
-</footer>
-
-{% asset main.js %}
+{% include footer.html %}
 </body>
 </html>
