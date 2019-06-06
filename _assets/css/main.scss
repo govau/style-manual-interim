@@ -10,7 +10,7 @@ body {
 }
 .au-body {
     h2 {
-        font-weight: normal;
+        font-weight: 300;
     }
 }
 
@@ -22,6 +22,7 @@ body {
 .au-header.au-header--dark {
     border-bottom: 8px solid $primary-color;
     box-shadow: 0 0 5px 0 #7F7F7F;
+    position: relative;
 }
 .au-footer.au-footer--dark {
     margin-top: 2em;
