@@ -3,6 +3,7 @@
 
 $AU-color-background: #313131;
 $primary-color: #45C2F0;
+$gray: #808080;
 
 body {
     margin: 0;
@@ -29,6 +30,12 @@ body {
 .au-header__heading {
     color: $primary-color;
 }
+.au-footer--dark .au-footer__end {
+    border-top-color: $gray;
+}
+.au-header--dark .au-header__brand .au-header__brand-image+.au-header__text {
+    border-left-color: $gray;
+}
 
 #hero {  
     background: url(/assets/images/style-manual-books.jpg) no-repeat center;
@@ -49,6 +56,12 @@ body {
     }
 }
 
+#dta-initiative {
+    img {
+        max-width: 64px;
+    }
+}
+
 #timeline {
     height: 500px;
 }
@@ -58,12 +71,21 @@ body {
 .tl-text p {
     color: #313131;
 }
+.tl-timeline p {
+    font-size: unset;
+}
 
 .text-centered {
     text-align: center;
 }
 .mt-2 {
     margin-top: 2em;
+}
+.mt-4 {
+    margin-top: 4em;
+}
+.mt-5 {
+    margin-top: 5em;
 }
 .mb-2 {
     margin-bottom: 2em;
