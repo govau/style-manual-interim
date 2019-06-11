@@ -18,8 +18,10 @@
             var tl = JSON.parse(this.responseText);
             var html = '';
             for ( i = 0; i < tl.events.length; i++ ) {
-                html += '<h2>' + tl.events[i].start_date.year + ' - ' + tl.events[i].text.headline + '</h2>' +
-                    tl.events[i].text.text;
+                html += '<h2>' + tl.events[i].start_date.year + ' - ' + tl.events[i].text.headline + '</h2>';
+                if ( tl.events[i].media )
+                    html += '<img src="' + tl.events[i].media.url + '" alt="">';
+                html += tl.events[i].text.text + '<br clear="all">';
             }
             el.innerHTML = html;
           }
