@@ -42,6 +42,7 @@ exclude:
   - CNAME
   - assets/sass
   - vendor
+  - manifest-*.yml
 
 # Plugin settings
 plugins:
