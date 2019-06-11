@@ -69,11 +69,25 @@ body {
 .tl-attribution {
     display: none;
 }
+.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline,
+.tl-text .tl-headline-date, .tl-text h3.tl-headline-date {
+    color: #666;
+}
 .tl-text p {
     color: #313131;
 }
 .tl-timeline p {
     font-size: unset;
+}
+
+#non-interactive-timeline {
+    img {
+        max-height: 200px;
+        box-shadow: 0 2px 4px #999;
+        padding: 4px;
+        margin-right: 1em;
+        float: left;
+    }
 }
 
 .text-centered {
