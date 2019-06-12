@@ -20,6 +20,10 @@
             "text": {
                 "headline": "2nd Edition",
                 "text": "<p>The second edition added \"Editors\" to the title, to become <em>Style Manual for Authors, Editors and Printers for Australian Government Publications</em>.</p><p>However, the subtitle \"for Australian Government Publications\" appeared on the title page and not the cover.</p><p>The second edition was published by the newly created Australian Government Publishing Service (AGPS).</p>"
+            },
+            "media": {
+                "url": "/assets/images/sm-2.jpg",
+                "thumbnail": "/assets/images/sm-2.jpg"
             }
         },
         {
@@ -55,6 +59,10 @@
             "text": {
                 "headline": "5th Edition",
                 "text": "<p>Updated and expanded on Fourth Edition, dealt more comprehensively with subjects including non-discriminatory language and referencing, and included new information about desk top production technology, copy preparation and designing for print.</p><p>Over 49 000 copies sold.</p>"
+            },
+            "media": {
+                "url": "/assets/images/sm-5.jpg",
+                "thumbnail": "/assets/images/sm-5.jpg"
             }
         },
         {
