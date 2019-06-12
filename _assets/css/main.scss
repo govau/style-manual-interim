@@ -29,13 +29,13 @@ body {
 }
 
 .au-header__heading {
-    color: $primary-color;
+    
 }
 .au-footer--dark .au-footer__end {
     border-top-color: $gray;
 }
 .au-header--dark .au-header__brand .au-header__brand-image+.au-header__text {
-    border-left-color: $gray;
+    border: none;
 }
 
 #hero {  
@@ -111,3 +111,23 @@ body {
 .mb-5 {
     margin-bottom: 5em;
 }
+
+/* sm */
+@media (min-width: 768px) {
+    .au-header__brand .au-header__brand-image {
+        max-width: 200px;
+        border-right: 1px solid $gray;
+        padding-right: 1em;
+    }
+    .au-header__brand .au-header__brand-image+.au-header__text {
+        margin-left: 220px;
+        margin-top: 0.5em;
+        float: none;
+    }
+}
+
+/* md */
+@media (min-width: 992px) {}
+
+/* lg */
+@media (min-width: 1200px) {}
